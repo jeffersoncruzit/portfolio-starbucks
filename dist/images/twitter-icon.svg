@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #007042;
+      }
+
+      .cls-2 {
+        opacity: 0.15;
+      }
+
+      .cls-3 {
+        fill: #000;
+        filter: url(#color-overlay-1);
+        fill-rule: evenodd;
+      }
+    </style>
+
+    <filter id="color-overlay-1" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="solidFill"/>
+    </filter>
+  </defs>
+  <rect width="32" height="32" class="cls-1"/>
+  <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAM1BMVEUAcEIAbUAAZDsAZTwAbkEAaD0AYDgAXzgAYDkAYTkAbD8AYjoAb0EAaT4AYzoAZz0AAABc0DtBAAAAAWJLR0QQlbINLAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAGRJREFUOMvtz0EOgCAQQ9EiQgUE739blRg0CMwB9C8mJH0bgE+mJj2PdmNJa47HQteYfWDOeZy3nlfN0sS3iI51T6ESG91is+RIJPa6RLRdAUmUP0gA7ge5IIGegCQgCUgCktgBkwAPDAdU64wAAAAASUVORK5CYII=" x="5" y="7" width="27" height="25" class="cls-2"/>
+  <path d="M15.904,6.000 C17.936,7.218 19.968,8.436 22.000,9.654 C22.016,8.772 22.032,7.891 22.048,7.010 C22.064,6.994 22.080,6.978 22.096,6.961 C23.008,6.978 23.920,6.994 24.832,7.010 C24.848,7.026 24.864,7.042 24.880,7.058 C24.880,8.532 24.880,10.006 24.880,11.481 C25.920,12.122 26.960,12.763 28.000,13.404 C27.680,14.013 27.360,14.622 27.040,15.231 C26.944,15.231 26.848,15.231 26.752,15.231 C23.152,13.067 19.552,10.904 15.952,8.740 C12.320,10.920 8.688,13.100 5.056,15.279 C4.704,14.654 4.352,14.029 4.000,13.404 C7.968,10.936 11.936,8.468 15.904,6.000 ZM18.832,26.000 C18.816,23.468 18.800,20.936 18.784,18.404 C18.768,18.388 18.752,18.372 18.736,18.356 C16.896,18.372 15.056,18.388 13.216,18.404 C13.200,18.420 13.184,18.436 13.168,18.452 C13.168,20.968 13.168,23.484 13.168,26.000 C11.168,25.984 9.168,25.968 7.168,25.952 C7.152,25.936 7.136,25.920 7.120,25.904 C7.120,22.346 7.120,18.788 7.120,15.231 C10.112,13.580 13.104,11.929 16.096,10.279 C19.024,11.929 21.952,13.580 24.880,15.231 C24.864,18.804 24.848,22.379 24.832,25.952 C24.816,25.968 24.800,25.984 24.784,26.000 C22.800,26.000 20.816,26.000 18.832,26.000 Z" class="cls-3"/>
+</svg>

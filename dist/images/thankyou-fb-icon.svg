@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="13" height="24" viewBox="0 0 13 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        filter: url(#drop-shadow-1);
+        fill-rule: evenodd;
+      }
+    </style>
+
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="0.707" dy="0.707" in="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.414" result="dropBlur"/>
+      <feFlood flood-opacity="0.1"/>
+      <feComposite operator="in" in2="dropBlur" result="dropShadowComp"/>
+      <feComposite in="SourceGraphic" result="shadowed"/>
+    </filter>
+  </defs>
+  <path d="M11.013,1.502 L8.902,1.502 C8.902,1.502 4.497,1.172 4.497,5.815 C4.497,6.808 4.497,9.006 4.497,9.006 L1.507,9.006 L1.515,11.507 L4.496,11.507 L4.499,22.493 L7.495,22.493 L7.495,11.507 L10.795,11.507 L11.500,9.006 L7.512,9.006 L7.512,5.721 C7.512,5.721 7.479,4.502 8.906,4.502 L11.000,4.502 L11.013,1.502 Z" class="cls-1"/>
+</svg>
